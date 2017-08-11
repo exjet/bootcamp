@@ -20,4 +20,4 @@ export CELERY_BROKER_URL=$DJANGO_CACHE_URL
 
 python manage.py runserver 0.0.0.0:8000
 
-exec "$@"
+#exec "$@"
